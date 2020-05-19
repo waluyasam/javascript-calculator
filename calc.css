@@ -1,0 +1,83 @@
+
+html {
+    background: #102f69;
+    background-image:
+      radial-gradient(50% 30% ellipse at center top, #455455 0%, rgba(0,0,0,0) 100%),
+      radial-gradient(60% 50% ellipse at center bottom, #36332c 0%, #220011e8 100%);
+    background-attachment: fixed;
+    color: #6cacc5;
+  }
+
+
+body {
+    color: #7caf05ef;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 5em 0 2em;
+    text-align: center;
+  }
+
+
+  .keyboard {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      grid-gap: 0;
+  }
+  
+
+.calculator{
+    font-size: 28px;
+    margin: 0 auto;
+    width: 38.3%;
+}
+
+
+button {
+    grid-template-columns: repeat(4, 1fr);
+    border: 0;
+    border-radius: 3px;
+    background: #311824e8;
+    color: #5f6a6e;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    margin: 0.15rem;
+    width: 5rem;
+    height: 4rem;
+    transition: all 0.5s;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+button:hover {
+    background-color: #4f656d63;
+}
+
+.equals {
+    grid-column: 4 / 5;
+    grid-row: -1 / -5;
+    height: 73.5%;
+    font-size: 2rem;
+}
+
+.decimal {
+    width: 93%;
+    font-size: 2rem;
+}
+
+.screen {
+    width: 119%;
+    height: 5rem;
+    padding-left: .02rem;
+    padding-right: .02rem;
+    text-align: right;
+    background-color: #242222e3;
+    border: 1px solid #1a1919 ;
+    border-radius: .1rem;
+    color: #5d6354;
+    font-size: 2rem;
+}
+
+
+
