@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #102f69;
+    background-image:
+      radial-gradient(50% 30% ellipse at center top, #455455 0%, rgba(0,0,0,0) 100%),
+      radial-gradient(60% 50% ellipse at center bottom, #36332c 0%, #220011e8 100%);
+    background-attachment: fixed;
+    color: #6cacc5;
+  }
+
+h1 {
+    padding-bottom: 2rem;
+}
+
+footer {
+    padding-top: 0;
+    margin-top: 1px;
+    alignment: left;
+    text-align: left;
+    margin-left: 0rem;
+}
+
+body {
+    color: #7caf05ef;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+  }
+
+.container {
+    align-items: center;
+    justify-content: center;
+    margin: 5% 35%;
+    padding-top: 1%;
+}
+
+.calculator {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    height: 80vh;
+
+}
+
+.screen {
+    display: inline-block;
+    width: 90%;
+    height: 40px;
+    font-size: 2em;
+    padding: 12px 1px 1px 1px;
+    text-align: right;
+    letter-spacing: 0.01em;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: default;
+    background: #242222e3;
+    color: #5d6354;
+    margin: 5px 10px ;
+}
+
+
+
+.key {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 1rem;
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+}
+
+button {
+    grid-template-columns: repeat(4, 1fr);
+    border: 0;
+    border-radius: 3px;
+    background: #311824e8;
+    color: #5f6a6e;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    margin: 0.15rem;
+    width: 5rem;
+    height: 4rem;
+    transition: all 0.5s;
+    font-weight: bold;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+button:hover {
+    background-color: #4f656d63;
+}
+
+.keyboard {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      grid-gap: 1px;
+  }
+
+.equals {
+   grid-column: 4 / 5;
+    grid-row: -1 / -5;
+    height: 68.5%;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
